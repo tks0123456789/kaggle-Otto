@@ -1,5 +1,5 @@
 # kaggle-Otto
-# 12th solution for the Otto Group Product Classification Challenge on Kaggle.  
+# 13th solution for the Otto Group Product Classification Challenge on Kaggle.  
 
 ## Classifier algorithms 
 * NN3: Neural Networks with 3 hidden layers  

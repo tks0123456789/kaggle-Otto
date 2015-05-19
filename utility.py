@@ -31,7 +31,9 @@ def RImatrix(p, m, k, rm_dup_cols = False, seed = None):
       m: The length of index vector
       k: # of 1s == # of -1s
     Rerurn value
-    sparce.coo_matrix, shape:(p, m)
+      sparce.coo_matrix, shape:(p, s)
+      If rm_dup_cols == False s == m
+      else s <= m
     """
     if seed is not None: np.random.seed(seed)
     popu = range(m)

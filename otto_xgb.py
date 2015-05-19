@@ -57,7 +57,7 @@ for i in range(nIter):
              'min_child_weight':mb, 'subsample':bf, 'colsample_bytree':cs, 'nthread':8, 'seed':seed}
     plst = param.items()
     bst = xgb.train(plst, dtrain, nt)
-    bst.save_model(path + 'model/model_XGB_CF_' + str(seed) + '.model')
+    # bst.save_model(path + 'model/model_XGB_CF_' + str(seed) + '.model')
     pred_train = bst.predict(dtrain).reshape((num_train, 9))
     pred_test = bst.predict(dtest).reshape(predAll_test.shape)
     predAll_train += pred_train
@@ -92,7 +92,7 @@ for i in range(nIter):
              'colsample_bytree':cs, 'nthread':8, 'seed':seed}
     plst = param.items()
     bst = xgb.train(plst, dtrain, nt)
-    bst.save_model(path + 'model/model_XGB_RI_' + str(seed) + '.model')
+    # bst.save_model(path + 'model/model_XGB_RI_' + str(seed) + '.model')
     pred_train = bst.predict(dtrain).reshape((num_train, 9))
     pred_test = bst.predict(dtest).reshape(predAll_test.shape)
     predAll_train += pred_train

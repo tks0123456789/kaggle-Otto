@@ -19,4 +19,13 @@
 * XGB + CF
 * XGB + RI
 
+## Usage
+* Put all *.py files into the folder containing train.csv, test.csv, sampleSubmission.csv
+* python otto_nn.py
+    * Output files: pred_TRI_kmax_4.npy, pred_TRI_kmax_5.npy, pred_Sparse_RI.npy
+* python otto_xgb.py
+    * Output files: pred_XGB_CF.npy, pred_XGB_RI.npy
+* python make_submission.py
+    * Output file: pred005.csv
+
 More information comming soon!

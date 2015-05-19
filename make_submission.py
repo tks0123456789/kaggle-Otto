@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import sklearn.preprocessing as pp
 
-path = '~/'
+path = './'
 
 # Neural Networks
 pred = [np.load(path + 'pred_TRI_kmax_' + str(k_max) + '.npy')  for k_max in [4,5]]

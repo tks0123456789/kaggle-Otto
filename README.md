@@ -16,7 +16,7 @@
 * TRI(k_max=4) + NN3  
 * TRI(k_max=5) + NN3  
 * NN4(RI)  
-* CF + XGB  
-* RI + XGB
+* XGB + CF  
+* XGB + RI
 
 More information comming soon!

@@ -1,5 +1,5 @@
 # kaggle-Otto
-# 13th solution for the Otto Group Product Classification Challenge on Kaggle.  
+# 12th solution for the Otto Group Product Classification Challenge on Kaggle.  
 
 ## Classifier algorithms 
 * NN3: Neural Networks with 3 hidden layers  
@@ -13,10 +13,10 @@
 * Count Feature(CF): The count of each feature value  
 
 ## 5 types of models   
-* TRI(k_max=4) + NN3  
-* TRI(k_max=5) + NN3  
-* NN4(RI)  
-* XGB + CF  
+* TRI(k_max=4) + NN3
+* TRI(k_max=5) + NN3
+* NN4(RI)
+* XGB + CF
 * XGB + RI
 
 More information comming soon!

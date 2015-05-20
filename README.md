@@ -19,6 +19,13 @@
 * XGB + CF
 * XGB + RI
 
+## Software
+* python 2.7
+* numpy
+* scipy
+* scikit-learn 
+* theano 0.7
+* pylearn2
 ## Usage
 * Put all *.py files into the folder containing train.csv, test.csv, sampleSubmission.csv
 * python otto_nn.py

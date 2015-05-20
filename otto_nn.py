@@ -15,7 +15,6 @@ import numpy as np
 import scipy as sp
 import pandas as pd
 import sklearn.preprocessing as pp
-from sklearn import cross_validation
 from sklearn.metrics import log_loss
 from datetime import datetime
 

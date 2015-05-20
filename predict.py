@@ -1,4 +1,5 @@
 from theano import function
+import numpy as np
 # The prediction function for pylearn2.models.*
 def predict(model, x, U = 1000):
     a = model.get_input_space().make_theano_batch()

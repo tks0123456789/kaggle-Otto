@@ -1,1 +1,1 @@
-Log files location
+Log files location for parameter tuning experiments.

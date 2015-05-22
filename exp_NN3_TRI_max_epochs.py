@@ -61,10 +61,7 @@ for train_idx, valid_idx in kf:
 y_train = yMat[train_idx]
 y_valid = yMat[valid_idx]
 
-
-# 365
 # [l1, l2, l3, output]
-# col_k_ones
 # params: k_min, k_max, epochs
 
 nIter = 20

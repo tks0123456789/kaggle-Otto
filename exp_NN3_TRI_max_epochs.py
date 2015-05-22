@@ -2,7 +2,7 @@
 Experiment for TRI + NN3
 
 Aim: To find the best max_epochs for TRI(k_min = 2, k_max = 4,5) + NN3(1024, 1024, 1024)
-The range of max_epochs: 22, 24, ... ,98, 100
+max_epochs: [22, 24, ... ,98, 100]
 Averaging 20 models
 
 Summary

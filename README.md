@@ -21,12 +21,13 @@
 
 ## Software
 * Ubuntu 14.04 LTS
+* Cuda 6.5
 * python 2.7
-* numpy
-* scipy
-* scikit-learn 
+* numpy 1.8.2
+* scipy 0.13.3
+* scikit-learn 0.16.1 
 * theano 0.7
-* pylearn2
+* pylearn2 0.1dev
 
 ## Usage
 * Put all *.py files into the folder containing train.csv, test.csv, sampleSubmission.csv
@@ -37,4 +38,3 @@
 * python make_submission.py
     * Output file: pred005.csv
 
-More information comming soon!

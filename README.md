@@ -20,6 +20,7 @@
 * XGB + RI
 
 ## Software
+* Ubuntu 14.04 LTS
 * python 2.7
 * numpy
 * scipy

@@ -1,7 +1,7 @@
 """
 Experiment for TRI + NN3
 
-Aim: To Find the best max_epochs for TRI(k_min = 2, k_max = 4,5) + NN3(1024, 1024, 1024)
+Aim: To find the best max_epochs for TRI(k_min = 2, k_max = 4,5) + NN3(1024, 1024, 1024)
 The range of max_epochs: 22, 24, ... ,98, 100
 Averaging 20 models
 
@@ -11,7 +11,7 @@ k_min k_max
 2     4          76  0.421093
       5          86  0.420173
 
-Time: 5:04:31 on i4790k 32G MEM GTX660
+Time: 5:04:31 on i7-4790k 32G MEM GTX660
 """
 import numpy as np
 import scipy as sp

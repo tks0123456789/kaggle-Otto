@@ -28,6 +28,7 @@
 * scikit-learn 0.16.1 
 * theano 0.7
 * pylearn2 0.1dev
+* xgboost-0.3
 
 ## Usage
 * Put all *.py files into the folder containing train.csv, test.csv, sampleSubmission.csv

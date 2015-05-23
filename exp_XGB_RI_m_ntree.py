@@ -113,6 +113,11 @@ for m in [100, 120, 140, 160]:
         print scores[-1], datetime.now() - t0
 
 df = pd.DataFrame(scores)
+
+if os.path.exists(path_log) is False:
+    print 'mkdir', path_log
+    os.mkdir(path_log)
+
 df.to_csv(path_log + 'exp_XGB_RI_m_ntree.csv')
 
 keys = ['m', 'ntree']
